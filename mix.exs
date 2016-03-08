@@ -20,7 +20,7 @@ defmodule ExAdmin.Mixfile do
 
   defp elixirc_paths(:test), do: ["lib", "web", "test/support"]
   defp elixirc_paths(_),     do: ["lib", "web"]
-  
+
   defp deps do
     [
       {:decimal, "~> 1.0"},
@@ -36,9 +36,9 @@ defmodule ExAdmin.Mixfile do
       {:inflex, github: "smpallen99/inflex"},
       {:ex_form, github: "smpallen99/ex_form"},
       {:xain, github: "smpallen99/xain", override: true},
-      {:scrivener, "~> 0.10.0"}, 
+      {:scrivener, "~> 0.10.0", override: true},
       {:csvlixir, "~> 1.0.0"},
-      {:exactor, "~>1.0.0"}, 
+      {:exactor, "~>1.0.0"},
       {:ex_doc, "~>0.10.0", only: :dev},
       {:earmark, ">= 0.0.0", only: :dev},
     ]
