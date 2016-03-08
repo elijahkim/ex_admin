@@ -36,7 +36,7 @@ defmodule ExAdmin.Mixfile do
       {:inflex, github: "smpallen99/inflex"},
       {:ex_form, github: "smpallen99/ex_form"},
       {:xain, github: "smpallen99/xain", override: true},
-      {:scrivener, "~> 0.10.0", override: true},
+      {:scrivener, "~> 1.1.2"},
       {:csvlixir, "~> 1.0.0"},
       {:exactor, "~>1.0.0"},
       {:ex_doc, "~>0.10.0", only: :dev},
